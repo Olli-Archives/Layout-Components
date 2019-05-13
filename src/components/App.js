@@ -1,13 +1,11 @@
 // src/components/App.js
 import React from 'react';
-import Dog from './Dog';
-import Header from './Header';
+import Color from './Color';
 
 export default function App() {
   return (
     <div>
-      <Header/>
-      <Dog/>
+      <Color/>
     </div>
   );
 }
